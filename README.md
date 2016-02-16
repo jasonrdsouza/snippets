@@ -1,5 +1,5 @@
-# til
-Today I Learned (collection of useful snippets)
+# Snippets
+Collection of useful snippets, based of the TIL repo idea
 
 ### References
 
