@@ -3,12 +3,12 @@ Collection of useful snippets, based of the TIL repo idea
 
 ### New Entries
 
-Filename (kebab case)
-Title (h1)
-Description (text)
-Code Block (code)
-Notes/ Reminders/ Gotchas (text)
-Source (text)
+- Filename (kebab case)
+- Title (h1)
+- Description (text)
+- Code Block (code)
+- Notes/ Reminders/ Gotchas (text)
+- Source (text)
 
 ### References
 
