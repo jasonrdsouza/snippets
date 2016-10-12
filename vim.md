@@ -1,15 +1,15 @@
 # Vim Spells
 
-## Convert tabs to spaces
+## Spacing
 
+### Convert tabs to spaces
 *assumes `expandtab` is on*
 
 ```
 :retab
 ```
 
-## Strip trailing whitespace
-
+### Strip trailing whitespace
 ```
 :%s/\s\+$//e
 ```
@@ -33,4 +33,8 @@ courtesy of https://github.com/mtth/scratch.vim plugin
 
 `gs` in normal mode opens the scratch window and enters insert mode. The scratch window closes when you leave insert mode.
 
+## Uppercase a word
+```
+gUiw
+```
 
