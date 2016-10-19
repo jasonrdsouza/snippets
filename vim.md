@@ -1,5 +1,11 @@
 # Vim Spells
 
+## Movement
+- `zz` move the current line to the middle of the screen
+- `w` go to the next word
+- `b` go to the previous word
+- `e` go to the end of the word
+
 ## Spacing
 
 ### Convert tabs to spaces
