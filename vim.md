@@ -47,7 +47,7 @@ gUiw
 
 ## Execute command on multiple lines
 
-The `g` command is sort of a "gateway" command to execute other commands. In this case, you can use it with the `norm` command to perform a change on lines that match a specific pattern (or all lines).
+The `g` command is the "global" command to execute other commands. In this case, you can use it with the `norm` command to perform a change on lines that match a specific pattern (or all lines).
 
 For example, if you want to add a semicolon to the end of all lines that start with a number, you could do that as follows:
 ```
