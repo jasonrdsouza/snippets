@@ -6,3 +6,8 @@ https://stedolan.github.io/jq/
 ```
 jq ".ArrayKey[].SpecificFieldInDict"
 ```
+
+## Print strings without quotes
+```
+jq --raw-output ".id"
+```
