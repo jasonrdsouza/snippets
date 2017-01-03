@@ -5,6 +5,14 @@
 - `w` go to the next word
 - `b` go to the previous word
 - `e` go to the end of the word
+- `W/B/E` same as above, but only treats whitespace as a separator
+- `H` go to the first line of current screen.
+- `M` go to the middle line of current screen.
+- `L` go to the last line of current screen.
+- `CTRL-f` jump forward one full screen.
+- `CTRL-b` jump backwards one full screen
+- `CTRL-d` jump forward (down) a half screen
+- `CTRL-u` jump back (up) one half screen
 
 ## Spacing
 
