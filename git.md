@@ -1,5 +1,11 @@
 # Git Spells
 
+## Move master branch pointer to previous commit
+For example, if you accidentally commit to master instead of making a branch
+```
+git reset --hard master~1
+```
+
 ## Remove unnecessary whitespace
 
 http://git-scm.com/docs/git-stripspace
