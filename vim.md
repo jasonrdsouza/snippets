@@ -59,6 +59,9 @@ Open a split with a specific file
 gUiw
 ```
 
+## Sort lines
+Highlight the lines you want to sort, and then execute `:sort`
+
 ## Execute command on multiple lines
 
 The `g` command is the "global" command to execute other commands. In this case, you can use it with the `norm` command to perform a change on lines that match a specific pattern (or all lines).
