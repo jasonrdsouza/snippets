@@ -14,10 +14,13 @@ http://git-scm.com/docs/git-stripspace
 git stripspace
 ```
 
-## See unique authors
+## See unique authors (by commit amount)
 
 ```
-git log | grep "Author" | sort | less | uniq -c
+git shortlog -sn
+
+# Optionally specifying start and end date
+git shortlog -sn --since='10 weeks' --until='2 weeks'
 ```
 
 ## Create an archive of the code (ignoring gitignored files!)
@@ -32,4 +35,17 @@ You can replace `master` in the command above with and tag, branch, or sha
 
 ```
 git merge --abort
+```
+
+## Ignore whitespace in diff
+
+```
+git diff -w
+git show -w
+```
+
+## Show changed words instead of lines
+
+```
+git diff --word-diff
 ```
