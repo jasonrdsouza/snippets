@@ -49,3 +49,11 @@ git show -w
 ```
 git diff --word-diff
 ```
+
+## Apply a patch
+Most often, the "patch" will be a diff file created with `git diff`.
+
+```
+git checkout <BRANCH_TO_APPLY_PATCH_TO>
+git apply <PATH_TO_PATCH_FILE>
+```
