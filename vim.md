@@ -62,6 +62,18 @@ gUiw
 ## Sort lines
 Highlight the lines you want to sort, and then execute `:sort`
 
+## Format text
+Vim lets you run any command line tool on a buffer/ selection of text via the following format, where `range` is the selection of text, and `filter` is the command to run. The output of the command, when fed the filter, replaces the selection:
+```
+:{range}!{filter}
+```
+
+### JSON formatting
+Requires that the `jq` command is installed. `%` references the current buffer.
+```
+%!jq
+```
+
 ## Execute command on multiple lines
 
 The `g` command is the "global" command to execute other commands. In this case, you can use it with the `norm` command to perform a change on lines that match a specific pattern (or all lines).
