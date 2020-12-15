@@ -28,6 +28,13 @@
 :%s/\s\+$//e
 ```
 
+## Buffers
+
+Close all open buffers
+```
+:%bd 
+```
+
 ## Splits
 
 Creating them
